@@ -8,7 +8,9 @@ foreach (var value in array)
     {
     if (value.Length <= 3)
         {
-            result[size] = value;
-            size++;
+            n[i] = value;
+            i++;
         }
     }
+
+    
