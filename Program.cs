@@ -5,9 +5,10 @@ array = str.Split(',');
 var n = new string [array.Length];
 int i = 0;
 foreach (var value in array)
-{
-    (value.Length <= 3)
     {
-        
+    if (value.Length <= 3)
+        {
+            result[size] = value;
+            size++;
+        }
     }
-    {
