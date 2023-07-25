@@ -12,5 +12,4 @@ foreach (var value in array)
             i++;
         }
     }
-
-    
+Console.WriteLine(array);
