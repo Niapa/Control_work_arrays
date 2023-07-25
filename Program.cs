@@ -12,4 +12,6 @@ foreach (var value in array)
             i++;
         }
     }
-Console.WriteLine(string.Join(Environment.NewLine, result, 0, size));
+Console.WriteLine(string.Join(Environment.NewLine, n, 0, i));
+
+
